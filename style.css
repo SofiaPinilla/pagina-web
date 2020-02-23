@@ -16,10 +16,9 @@
     border: 2px solid;
     border-radius: 20px;
     border-color: skyblue;
-    float: left;
-    
-   
+    float: left; 
 }
+
 @media (max-width: 600px) {
     .imagen2{
         display: flex;
@@ -31,7 +30,13 @@
         max-width: 350px;
         
     }
-    
+    .imagen3{
+        max-width: 40vh;
+        border: 2px solid;
+        border-radius: 20px;
+        border-color: skyblue;
+     
+    }
 }
 
 .parrafo{
@@ -125,7 +130,7 @@
     display: flex;
     justify-content: space-between;
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -195,8 +200,6 @@
 }
 
 
-
-
 .parrafo2{
     display:flex;
     flex-direction: column;
@@ -248,6 +251,14 @@
         font-size: 40px;
     }
     .divImagen {width: 80%}
+
+    .imagen3{
+        max-width: 40vh;
+        border: 2px solid;
+        border-radius: 20px;
+        border-color: skyblue;
+     
+    }
   
 }
 @media (max-width: 1000px) {
@@ -257,6 +268,13 @@
     
     .parrafo2{
         width: 60%;
+    }
+    .imagen3{
+        max-width: 60vh;
+        border: 2px solid;
+        border-radius: 20px;
+        border-color: skyblue;
+     
     }
 }
 @media (max-width: 800px) {
@@ -270,6 +288,26 @@
     .cabeceraNuevaClass{
         display:flex;
         margin: 0 auto;
+    }
+
+    .imagen3{
+        max-width: 40vh;
+        border: 2px solid;
+        border-radius: 20px;
+        border-color: skyblue;
+     
+    }
+    #inicioJavi{
+        font-size: 12px;   
+    }
+    #contactoJavi{
+        font-size: 12px;   
+    }
+    #portfolioJavi{
+        font-size: 12px;   
+    }
+    #enlaceJavi{
+        font-size: 12px;   
     }
 }
 
@@ -315,8 +353,8 @@
 
 .divImagen2{
     width: 40%;
-    padding: 10px;
     margin: 0 auto;
+    
 }
 
 .flex2{
@@ -328,13 +366,16 @@
     
 }
 
-#contacto{
-    flex:1
-}
-
-
-
 .texto2{
    
     font-size: 20px;
+}
+
+.imagen3{
+    width: 80vh;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: skyblue;
+    float: none;
+    margin: 0 auto;
 }

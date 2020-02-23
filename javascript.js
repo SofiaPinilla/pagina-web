@@ -1,14 +1,14 @@
-const inicioLi = document.getElementById('inicioLi');
-const contactoLi = document.getElementById('contactoLi');
+const inicioJ = document.getElementById('inicioJavi');
+const contactoJ = document.getElementById('contactoJavi');
 const inicio = document.getElementById('inicio')
 const contacto = document.getElementById('contacto')
-const portfolioLi = document.getElementById('portfolioLi');
+const portfolioJ = document.getElementById('portfolioJavi');
 const portfolio = document.getElementById('portfolio');
 
 
-inicioLi.addEventListener('click', verInicio);
-contactoLi.addEventListener('click', verContacto);
-portfolioLi.addEventListener('click',verPortfolio)
+inicioJ.addEventListener('click', verInicio);
+contactoJ.addEventListener('click', verContacto);
+portfolioJ.addEventListener('click',verPortfolio)
 
 function quitarDiv() {
     inicio.className = 'invisible'
