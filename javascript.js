@@ -8,7 +8,7 @@ const portfolio = document.getElementById('portfolio');
 
 inicioJ.addEventListener('click', verInicio);
 contactoJ.addEventListener('click', verContacto);
-portfolioJ.addEventListener('click',verPortfolio)
+portfolioJ.addEventListener('click', verPortfolio)
 
 function quitarDiv() {
     inicio.className = 'invisible'

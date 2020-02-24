@@ -1,26 +1,24 @@
-
-.cabecera{
+.cabecera {
     text-align: center;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     max-width: 1100px;
-    margin:0 auto;
+    margin: 0 auto;
     flex-wrap: wrap;
-}    
+}
 
-
-.imagen{
+.imagen {
     margin-top: 40px;
     margin-left: 200px;
-   width: 100%;
+    width: 100%;
     border: 2px solid;
     border-radius: 20px;
     border-color: skyblue;
-    float: left; 
+    float: left;
 }
 
 @media (max-width: 600px) {
-    .imagen2{
+    .imagen2 {
         display: flex;
         justify-content: center;
         padding: 10px;
@@ -28,28 +26,24 @@
         border-style: dashed;
         margin: 0 auto;
         max-width: 350px;
-        
     }
-    .imagen3{
+    .imagen3 {
         max-width: 40vh;
         border: 2px solid;
         border-radius: 20px;
         border-color: skyblue;
-     
     }
 }
 
-.parrafo{
+.parrafo {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
-    color:  #666666;
-    
-}   
+    color: #666666;
+}
 
-
-.habilidades{
+.habilidades {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -57,10 +51,9 @@
     text-shadow: 3px 2px 2px grey;
     color: rgb(148, 225, 255);
     cursor: default;
-    
-}   
-    
-.sobremi{
+}
+
+.sobremi {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -68,111 +61,106 @@
     text-shadow: 3px 2px 2px grey;
     color: rgb(148, 225, 255);
     cursor: default;
-    
-
-    
+    width: 100%
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: center;
     padding: 30px;
     align-items: center;
     background-color: #f5f5f5;
-    
 }
 
-.texto{
+.texto {
     align-items: flex-start;
     font-size: 16px;
-    display:flex;
-    flex-direction:column;
-
+    display: flex;
+    flex-direction: column;
 }
 
-.enlace{
+.enlace {
     all: unset;
     align-items: flex-start;
     font-size: 16px;
-    display:flex;
-    flex-direction:column;
-    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     font-size: 20px;
-   
-
 }
-.enlace:hover{
+
+.enlace:hover {
     all: unset;
     opacity: 1 em;
     cursor: pointer;
     transition: 0.5s;
-    color:rgb(142, 210, 255);
+    color: rgb(142, 210, 255);
     font-size: 20px;
 }
 
-
 .visible {
-    display:flex
-}
-.invisible {
-    display:none
+    display: flex
 }
 
+.invisible {
+    display: none
+}
 
 .menunavegacion {
     padding: 20px;
     justify-content: space-between;
-    margin: 0 auto;   
+    margin: 0 auto;
     align-items: center;
 }
 
 .menunavegacion li {
-
     display: flex;
     justify-content: space-between;
     display: inline-block;
     padding: 10px;
-    
 }
 
-.forma{
+.forma {
     padding: 20px;
     padding-bottom: 15px;
 }
 
 .forma.formulario {
     padding-bottom: 15px;
-
 }
+
 .forma label {
     display: block;
-} 
+}
+
 .forma input {
     padding: 8px;
     width: 100%;
-} 
+}
 
 .forma textarea {
     padding: 8px;
     width: 100%;
 }
 
-.forma button{
+.forma button {
     padding: 10px 15px;
     background-color: #333;
     color: #fff;
     border: none;
 }
+
 .enlace {
     color: #0083fd;
     font-size: 20px;
 }
 
-#btn{
+#btn {
     cursor: pointer;
     opacity: 1;
-    
 }
-#btn:hover{
+
+#btn:hover {
     opacity: 0.7;
     transition: 0.5s;
 }
@@ -184,198 +172,192 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     margin-top: 10px;
 }
-.imagen2{
-   
-    border: 3px  grey;
+
+.imagen2 {
+    border: 3px grey;
     border-style: dashed;
     width: 700px;
     border-radius: 10px;
     max-width: 90%;
-    display:flex;
+    display: flex;
     margin: 0 auto;
 }
+
 .hr {
     border: 0.5px solid;
     border-color: grey;
 }
 
-
-.parrafo2{
-    display:flex;
+.parrafo2 {
+    display: flex;
     flex-direction: column;
     padding: 10px;
     width: 70%;
 }
+
 .sofiaDiv {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin:0 auto;
+    margin: 0 auto;
     flex-wrap: wrap;
 }
+
 .imagen {
     height: auto;
-    
     margin-left: auto;
     margin-right: auto;
     float: none;
     margin: 0 auto;
 }
+
 .divImagen {
     width: 25%;
     padding: 10px;
     margin: 0 auto;
 }
-.sobremi{
+
+.sobremi {
     margin: 0 auto;
 }
 
 @media (max-width: 500px) {
-
-   
     .menunavegacion li {
-        font-size: 12px;   
+        font-size: 12px;
     }
     .parrafo {
         font-size: 13px;
-        
-        
     }
     .sobremi {
         font-size: 40px;
     }
-    .texto{
+    .texto {
         font-size: 13px;
     }
-    .habilidades{
+    .habilidades {
         font-size: 40px;
     }
-    .divImagen {width: 80%}
-
-    .imagen3{
+    .divImagen {
+        width: 80%
+    }
+    .imagen3 {
         max-width: 40vh;
         border: 2px solid;
         border-radius: 20px;
         border-color: skyblue;
-     
     }
-  
 }
+
 @media (max-width: 1000px) {
     .divImagen {
         width: 40%
     }
-    
-    .parrafo2{
+    .parrafo2 {
         width: 60%;
     }
-    .imagen3{
+    .imagen3 {
         max-width: 60vh;
         border: 2px solid;
         border-radius: 20px;
         border-color: skyblue;
-     
     }
 }
+
 @media (max-width: 800px) {
     .divImagen {
         width: 80%
     }
-    
-    .parrafo2{
+    .parrafo2 {
         width: 80%;
     }
-    .cabeceraNuevaClass{
-        display:flex;
+    .cabeceraNuevaClass {
+        display: flex;
         margin: 0 auto;
     }
-
-    .imagen3{
+    .imagen3 {
         max-width: 30vh;
         border: 2px solid;
         border-radius: 20px;
         border-color: skyblue;
-     
     }
-    #inicioJavi{
-        font-size: 12px;   
+    #inicioJavi {
+        font-size: 12px;
     }
-    #contactoJavi{
-        font-size: 12px;   
+    #contactoJavi {
+        font-size: 12px;
     }
-    #portfolioJavi{
-        font-size: 12px;   
+    #portfolioJavi {
+        font-size: 12px;
     }
-    #enlaceJavi{
-        font-size: 12px;   
+    #enlaceJavi {
+        font-size: 12px;
     }
 }
 
-
-
 .javi {
-    all:unset;
+    all: unset;
     justify-content: space-between;
     cursor: pointer;
     transition: all 500ms;
     opacity: 0.7;
     font-size: 15px;
-    
 }
 
-.javi:hover{
+.javi:hover {
     all: unset;
     opacity: 1 em;
     cursor: pointer;
     font-size: 15px;
-    width:  100%;
+    width: 100%;
     transition: 0.5s;
     color: rgb(148, 225, 255);
 }
-.javi::after{
 
+.javi::after {
     color: #b64747;
     font-weight: bold;
     content: '';
     background: rgb(148, 225, 255);
-    display:block;
-    width:0;
-    height:2px;
+    display: block;
+    width: 0;
+    height: 2px;
     transition: 0.3s;
 }
+
 .javi:hover::after {
-    width:100%;
+    width: 100%;
 }
 
 .ul {
     margin-bottom: 0px;
 }
 
-.divImagen2{
+.divImagen2 {
     width: 40%;
     margin: 0 auto;
-    
 }
 
-.flex2{
-   
+.flex2 {
     justify-content: center;
     padding: 30px;
     align-items: center;
     background-color: #f5f5f5;
-    
 }
 
-.texto2{
-   
+.texto2 {
     font-size: 20px;
 }
 
-.imagen3{
+.imagen3 {
     width: 80vh;
     border: 2px solid;
     border-radius: 20px;
     border-color: skyblue;
     float: none;
     margin: 0 auto;
+}
+
+.fondo {
+    display: flex;
+    background-color: #f5f5f5;
 }
